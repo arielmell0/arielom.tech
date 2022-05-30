@@ -1,38 +1,39 @@
 import styled from 'styled-components';
-import Typewriter from 'typewriter-effect/dist/core';
+import Typewriter from 'typewriter-effect';
 
 const Resume = () => {
-    const resume = document.getElementById('resume');
-    const typeEffect = new Typewriter(resume, {
-        loop: true,
-        delay: 75
-    })
-
-    typeEffect
-        .pauseFor(2500)
-        .typeString('A simple yet powerful native javascript')
-        .pauseFor(300)
-        .deleteChars(10)
-        .typeString('<strong>JS</strong> plugin for a cool typewriter effect and ')
-        .typeString('<strong>only <span style="color: #27ae60;">5kb</span> Gzipped!</strong>')
-        .pauseFor(1000)
-        .start();
-
     return (
-        <ResumeDiv id="resume">
-
+        <ResumeDiv>
+            <Typewriter
+            options={{
+                strings: ['Olá! Me chamo Ariel Oliveira de Mello.',
+                'Tenho 20 anos de idade.', 'Resido no estado do Rio Grande do Sul'
+            ],
+                deleteSpeed: 30,
+                delay: 30,
+                autoStart: true,
+                loop: true,
+            }}
+            />
         </ResumeDiv>
     )
-}
+};
 
 const ResumeDiv = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
     align-self: center;
     justify-self: flex-start;
-    background-color: red;
+    background-color: white;
     width: 100vw;
-    height: 20vh;
+    height: 6.401vh;
     margin:2.5vh 0 0 0;
     padding: 0;
+
+    color: black;
+    font-weight: italic;
+    font-size: 2rem;
 `
 
 export default Resume;

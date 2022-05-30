@@ -5,7 +5,6 @@ const Menu = () => {
     return (
         <Header className='menu'>
             <MenuList>
-                <ListItem>Home</ListItem>
                 <ListItem>Sobre mim</ListItem>
                 <ListItem>Projetos</ListItem>
                 <ListItem>Contato</ListItem>
@@ -33,14 +32,17 @@ const MenuList = styled.ul`
 
     height: 10vh;
     width: 100vw;
-    padding: 0;
+    padding: 0 1.5vw 0 0;
     margin: 0;
 `
 
 const ListItem = styled.li`
-    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    width: 15vw;
     color: white;
     font-weight: bold;
+    font-size: 1.5rem;
 
     list-style-type: none;
     cursor: pointer; 
