@@ -26,7 +26,6 @@ const Header = styled.div`
 const MenuList = styled.ul`
     display: flex;
     flex-direction: row;
-    justify-items: center;
     align-items: center;
     justify-content: center;
 
@@ -39,6 +38,7 @@ const MenuList = styled.ul`
 const ListItem = styled.li`
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 15vw;
     color: white;
     font-weight: bold;
