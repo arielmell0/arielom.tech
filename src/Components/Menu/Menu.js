@@ -5,7 +5,7 @@ const Menu = () => {
     return (
         <Header className='menu'>
             <MenuList>
-                <ListItem>Sobre mim</ListItem>
+                <ListItem>Sobre</ListItem>
                 <ListItem>Projetos</ListItem>
                 <ListItem>Contato</ListItem>
             </MenuList>
@@ -45,7 +45,11 @@ const ListItem = styled.li`
     font-size: 1.5rem;
 
     list-style-type: none;
-    cursor: pointer; 
+    cursor: pointer;
+    
+    @media (max-width: 800px) {
+        margin: 4vw;
+    }
 
     &:hover {
         color: #26DB66;

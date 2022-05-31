@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import styled from 'styled-components';
 import 'animate.css';
 import profilePicIlustraded from '../../images/profilePic.png';
