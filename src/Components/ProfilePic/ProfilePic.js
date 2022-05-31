@@ -27,8 +27,19 @@ const ProfilePic = () => {
 
     return (
         <Img src={image} animation={animation}
+        onTouch
         onMouseOver={addAnimationAndAlterImage}
         onMouseOut={rmAnimationAndAlterImage}
+        onClick={() => {
+            if(image === profilePicIlustraded) {
+                setAnimation(addAnimationAndAlterImage)
+            }
+
+            if(image === profilePicReal) {
+                setAnimation(rmAnimationAndAlterImage)
+            }
+        }}
+
         />
     )
 }
