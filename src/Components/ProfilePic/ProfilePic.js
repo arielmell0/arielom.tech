@@ -59,7 +59,7 @@ const Img = styled.img`
     animation-duration: 0.5s;
 
     @media (max-width: 500px) {
-        width: 80vw;
+        width: 400px;
         height: 400px;
     }
 `
