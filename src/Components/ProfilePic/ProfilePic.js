@@ -1,31 +1,39 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import 'animate.css';
 import profilePicIlustraded from '../../images/profilePic.png';
 import profilePicReal from '../../images/profilePicReal.jpg';
 
 const ProfilePic = () => {
-    let [image, setImage] = useState(profilePicReal); 
-    const [animation, setAnimation] = useState(ImgAnimationOut);
+    const [image, setImage] = useState(profilePicIlustraded); 
+    const [animation, setAnimation] = useState('zoomIn');
 
     const addAnimationAndAlterImage = () => {
-        setImage(profilePicIlustraded);
-        setAnimation(ImgAnimationIn);
+        setAnimation('zoomOut')
+        setTimeout(() => {
+            setAnimation('zoomIn');
+            setImage(profilePicReal)
+        }, 500)
+        
     };
 
     const rmAnimationAndAlterImage = () => {
-        setImage(profilePicReal);
-        setAnimation(ImgAnimationOut);
-    }
+        setAnimation('zoomOut')
+        setTimeout(() => {
+            setAnimation('zoomIn');
+            setImage(profilePicIlustraded)
+        }, 500)
+    };
 
     return (
-        <ImgAnimationOut src={image} onMouseOver={addAnimationAndAlterImage}
+        <Img src={image} animation={animation}
+        onMouseOver={addAnimationAndAlterImage}
         onMouseOut={rmAnimationAndAlterImage}
         />
     )
 }
 
-const ImgAnimationOut = styled.img`
+const Img = styled.img`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,12 +43,9 @@ const ImgAnimationOut = styled.img`
     width: 500px;
     height: 500px;
     border-radius: 50%;
-`
-
-const ImgAnimationIn = styled(ImgAnimationOut)`
-    animation-name: flash;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
+    animation-name: ${props => props.animation};
+    animation-delay: 0s;
+    animation-duration: 0.5s;
 `
 
 export default ProfilePic;
