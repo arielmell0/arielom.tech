@@ -46,6 +46,11 @@ const Img = styled.img`
     animation-name: ${props => props.animation};
     animation-delay: 0s;
     animation-duration: 0.5s;
+
+    @media (max-width: 500px) {
+        width: 400px;
+        height: 400px;
+    }
 `
 
 export default ProfilePic;

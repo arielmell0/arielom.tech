@@ -46,16 +46,20 @@ const ListItem = styled.li`
 
     list-style-type: none;
     cursor: pointer;
-    
-    @media (max-width: 800px) {
-        margin: 4vw;
-    }
 
     &:hover {
         color: #26DB66;
         animation-name: flash;
         animation-duration: 1s;
         animation-iteration-count: infinite;
+    }
+
+    @media (max-width: 800px) {
+        margin: 4vw;
+    }
+
+    @media (max-width: 500px) {
+        margin: 6vw;
     }
 `
 
