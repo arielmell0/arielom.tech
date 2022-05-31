@@ -48,7 +48,7 @@ const Img = styled.img`
     animation-duration: 0.5s;
 
     @media (max-width: 500px) {
-        width: 400px;
+        width: 80vw;
         height: 400px;
     }
 `

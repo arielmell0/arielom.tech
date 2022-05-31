@@ -31,7 +31,7 @@ const MenuList = styled.ul`
 
     height: 10vh;
     width: 100vw;
-    padding: 0 1.5vw 0 0;
+    padding: 0 0 0 0;
     margin: 0;
 `
 
@@ -43,6 +43,7 @@ const ListItem = styled.li`
     color: white;
     font-weight: bold;
     font-size: 1.5rem;
+    padding: 0;
 
     list-style-type: none;
     cursor: pointer;
