@@ -34,6 +34,7 @@ const ResumeDiv = styled.div`
     color: black;
     font-weight: italic;
     font-size: 2rem;
+    text-align: center;
 `
 
 export default Resume;
