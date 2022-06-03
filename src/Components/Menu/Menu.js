@@ -48,6 +48,8 @@ const ListItem = styled.li`
     list-style-type: none;
     cursor: pointer;
 
+    margin: 3vw;
+
     &:hover {
         color: #26DB66;
         animation-name: flash;
