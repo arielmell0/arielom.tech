@@ -33,7 +33,7 @@ const CardContainer = styled.div`
     justify-content: center;
 
     @media (max-width: 900px) {
-        flex-direction: column;]
+        flex-direction: column;
     }
 `
 
