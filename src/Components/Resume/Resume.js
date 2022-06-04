@@ -6,8 +6,9 @@ const Resume = () => {
         <ResumeDiv>
             <Typewriter
             options={{
-                strings: ['Olá! Me chamo Ariel Oliveira de Mello.',
-                'Tenho 20 anos de idade.', 'Resido no estado do Rio Grande do Sul'
+                strings: ['Olá! Me chamo Ariel.',
+                'Tenho 20 anos de idade.', 'Um estudante do Javascript',
+                'Atualmente cursando ADS', 'Amoo café <3'
             ],
                 deleteSpeed: 30,
                 delay: 30,

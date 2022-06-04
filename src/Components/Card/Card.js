@@ -1,11 +1,18 @@
 import styled from "styled-components";
+import CardButton from '../CardButton/CardButton';
 
 const Card = () => {
     return (
        <CardContainer>
-           <CardItem />
-           <CardItem />
-           <CardItem />
+           <CardItem>
+               <CardButton Name="Github"/>
+           </CardItem>
+           <CardItem>
+               <CardButton Name="Linkedin"/>
+           </CardItem>
+           <CardItem>
+               <CardButton Name="Twitter"/>
+           </CardItem>
        </CardContainer> 
     )
 };
