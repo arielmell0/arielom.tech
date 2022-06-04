@@ -4,21 +4,34 @@ import CardContent from '../CardContent/CardContent';
 
 
 const Card = () => {
-    const CardContentArray = [
-        'Projeto de uma API responsável por cadastrar um usuário, criptografar sua senha no banco de dados, e devolver um token para acessar certas informações.'
+    const cardContentArray = [
+        {
+            content: 'Projeto de uma API responsável por cadastrar um usuário, criptografar sua senha no banco de dados, e devolver um token para acessar certas informações.',
+            name: 'API JWT  NodeJS' 
+        },
+        {
+            content: 'Uma API que possui as funcionalidades de um CRUD (Create, Read, Update and Delete)',
+            name: 'API CRUD NodeJS'
+        },
+        {
+            content: 'Gera senhas aleatórias de qualquer tamanho. A aleatoriedade das senhas geradas as fazem difíceis de serem adivinhadas.',
+            name: 'Gerador de senhas'
+        },
     ]
 
     return (
        <CardContainer>
            <CardItem>
-               <CardContent Text={CardContentArray[0]} />
-               <CardButton Name="Github"/>
+                <CardContent Text={cardContentArray[0].content} />
+                <CardButton Name={cardContentArray[0].name} />
            </CardItem>
            <CardItem>
-               <CardButton Name="Linkedin"/>
+                <CardContent Text={cardContentArray[1].content} />
+                <CardButton Name={cardContentArray[1].name} />
            </CardItem>
            <CardItem>
-               <CardButton Name="Twitter"/>
+                <CardContent Text={cardContentArray[2].content} />
+                <CardButton Name={cardContentArray[2].name} />
            </CardItem>
        </CardContainer> 
     )

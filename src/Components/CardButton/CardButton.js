@@ -15,6 +15,8 @@ const Button = styled.button`
     border-radius: 5%;
     margin-bottom: 5%;
     border: none;
+    font-size: 1rem;
+    font-weight: bold;
 
     &:hover {
         background-color: black;
