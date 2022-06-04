@@ -28,7 +28,7 @@ const ResumeDiv = styled.div`
     background-color: white;
     width: 100vw;
     height: 6.401vh;
-    margin:2.5vh 0 0 0;
+    margin: 2.5vh 0 0 0;
     padding: 0;
 
     color: black;
