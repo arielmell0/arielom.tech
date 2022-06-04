@@ -1,10 +1,17 @@
 import styled from "styled-components";
 import CardButton from '../CardButton/CardButton';
+import CardContent from '../CardContent/CardContent';
+
 
 const Card = () => {
+    const CardContentArray = [
+        'Projeto de uma API responsável por cadastrar um usuário, criptografar sua senha no banco de dados, e devolver um token para acessar certas informações.'
+    ]
+
     return (
        <CardContainer>
            <CardItem>
+               <CardContent Text={CardContentArray[0]} />
                <CardButton Name="Github"/>
            </CardItem>
            <CardItem>
