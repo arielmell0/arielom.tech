@@ -17,7 +17,8 @@ const CardItem = styled.div`
     flex-wrap: wrap;
     height: 40vh;
     width: 15vw;
-    margin: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 5vw;
     border-radius: 10%;
     background-color: #26DB66;
 
@@ -31,6 +32,7 @@ const CardContainer = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 2.5vh;
 
     @media (max-width: 900px) {
         flex-direction: column;
