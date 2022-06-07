@@ -27,9 +27,6 @@ const ProfilePic = () => {
 
     return (
         <Img src={image} animation={animation}
-        onTouch
-        onMouseOver={addAnimationAndAlterImage}
-        onMouseOut={rmAnimationAndAlterImage}
         onClick={() => {
             if(image === profilePicIlustraded) {
                 setAnimation(addAnimationAndAlterImage)
@@ -39,7 +36,6 @@ const ProfilePic = () => {
                 setAnimation(rmAnimationAndAlterImage)
             }
         }}
-
         />
     )
 }
