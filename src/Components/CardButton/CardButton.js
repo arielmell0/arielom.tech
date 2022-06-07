@@ -10,13 +10,12 @@ const CardButton = (props) => {
 
 const Button = styled.button`
     width: 60%;
-    height: 15%;
+    height: 20%;
     background-color: white;
-    border-radius: 5%;
+    border-radius: 4px;
     margin-bottom: 5%;
     border: none;
     font-size: 1rem;
-    font-weight: bold;
 
     &:hover {
         background-color: black;
