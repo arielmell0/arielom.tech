@@ -13,7 +13,7 @@ const ProfilePic = () => {
         setTimeout(() => {
             setAnimation('zoomIn');
             setImage(profilePicReal)
-        }, 500)
+        }, 1000)
         
     };
 
@@ -22,7 +22,7 @@ const ProfilePic = () => {
         setTimeout(() => {
             setAnimation('zoomIn');
             setImage(profilePicIlustraded)
-        }, 500)
+        }, 1000)
     };
 
     return (
@@ -52,7 +52,7 @@ const Img = styled.img`
     border-radius: 50%;
     animation-name: ${props => props.animation};
     animation-delay: 0s;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
 
     @media (max-width: 600px) {
         width: 350px;
