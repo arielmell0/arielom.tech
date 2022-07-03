@@ -6,27 +6,33 @@ const Card = () => {
     const cardContentArray = [
         {
             content: 'Projeto de uma API responsável por cadastrar um usuário, criptografar sua senha no banco de dados, e devolver um token para acessar certas informações.',
-            name: 'API JWT  NodeJS' 
+            name: 'API JWT  NodeJS' ,
+            link: 'https://github.com/arielmell0/API_JWT_NodeJS'
         },
         {
             content: 'Uma API que possui as funcionalidades de um CRUD (Create, Read, Update and Delete)',
-            name: 'API CRUD NodeJS'
+            name: 'API CRUD NodeJS',
+            link: 'https://github.com/arielmell0/API_CRUD'
         },
         {
             content: 'API que consiste em um CRUD de tarefas para o desafio da Mobi+Akross',
-            name: 'API Tarefas'
+            name: 'API Tarefas',
+            link: 'https://github.com/arielmell0/Projeto-Mobicare'
         },
         {
             content: 'Gera senhas aleatórias de qualquer tamanho. A aleatoriedade das senhas geradas as fazem difíceis de serem adivinhadas.',
-            name: 'Gerador de senhas'
+            name: 'Gerador de senhas',
+            link: 'https://github.com/arielmell0/Gerador-De-Senhas'
         },
         {
             content: 'Uma urna eletrônica que contém alguns candidatos, projeto criado para treinar alguns conteúdos que li sobre css flexbox e css grid.',
-            name: 'Urna eletrônica'
+            name: 'Urna eletrônica',
+            link: 'https://github.com/arielmell0/Urna-eletronica'
         },
         {
             content: 'Um pequeno e simples chat TCP com NodeJS, utilizando o módulo net nativo do core da plataforma. Projeto desenvolvido durante a minha experiência com o livro Construindo aplicações com NodeJS 3° Edição .',
-            name: 'Chat TCP simples'
+            name: 'Chat TCP simples',
+            link: 'https://github.com/arielmell0/chat-TCP'
         },
     ]
 
@@ -35,30 +41,30 @@ const Card = () => {
             <CardContainer>
                 <CardItem>
                         <CardContent Text={cardContentArray[0].content} />
-                        <CardButton Name={cardContentArray[0].name} />
+                        <CardButton Name={cardContentArray[0].name} Link={cardContentArray[0].link} />
                 </CardItem>
                 <CardItem>
                         <CardContent Text={cardContentArray[1].content} />
-                        <CardButton Name={cardContentArray[1].name} />
+                        <CardButton Name={cardContentArray[1].name} Link={cardContentArray[1].link} />
                 </CardItem>
                 <CardItem>
                         <CardContent Text={cardContentArray[2].content} />
-                        <CardButton Name={cardContentArray[2].name} />
+                        <CardButton Name={cardContentArray[2].name} Link={cardContentArray[2].link} />
                 </CardItem>
             </CardContainer> 
 
             <CardContainer>
                 <CardItem>
                         <CardContent Text={cardContentArray[3].content} />
-                        <CardButton Name={cardContentArray[3].name} />
+                        <CardButton Name={cardContentArray[3].name} Link={cardContentArray[3].link} />
                 </CardItem>
                 <CardItem>
                         <CardContent Text={cardContentArray[4].content} />
-                        <CardButton Name={cardContentArray[4].name} />
+                        <CardButton Name={cardContentArray[4].name} Link={cardContentArray[4].link} />
                 </CardItem>
                 <CardItem>
                         <CardContent Text={cardContentArray[5].content} />
-                        <CardButton Name={cardContentArray[5].name} />
+                        <CardButton Name={cardContentArray[5].name} Link={cardContentArray[5].link} />
                 </CardItem>
             </CardContainer> 
         </>
