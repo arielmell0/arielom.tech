@@ -2,7 +2,6 @@ import styled from "styled-components";
 import CardButton from '../CardButton/CardButton';
 import CardContent from '../CardContent/CardContent';
 
-
 const Card = () => {
     const cardContentArray = [
         {
@@ -14,26 +13,55 @@ const Card = () => {
             name: 'API CRUD NodeJS'
         },
         {
+            content: 'API que consiste em um CRUD de tarefas para o desafio da Mobi+Akross',
+            name: 'API Tarefas'
+        },
+        {
             content: 'Gera senhas aleatórias de qualquer tamanho. A aleatoriedade das senhas geradas as fazem difíceis de serem adivinhadas.',
             name: 'Gerador de senhas'
+        },
+        {
+            content: 'Uma urna eletrônica que contém alguns candidatos, projeto criado para treinar alguns conteúdos que li sobre css flexbox e css grid.',
+            name: 'Urna eletrônica'
+        },
+        {
+            content: 'Um pequeno e simples chat TCP com NodeJS, utilizando o módulo net nativo do core da plataforma. Projeto desenvolvido durante a minha experiência com o livro Construindo aplicações com NodeJS 3° Edição .',
+            name: 'Chat TCP simples'
         },
     ]
 
     return (
-       <CardContainer>
-           <CardItem>
-                <CardContent Text={cardContentArray[0].content} />
-                <CardButton Name={cardContentArray[0].name} />
-           </CardItem>
-           <CardItem>
-                <CardContent Text={cardContentArray[1].content} />
-                <CardButton Name={cardContentArray[1].name} />
-           </CardItem>
-           <CardItem>
-                <CardContent Text={cardContentArray[2].content} />
-                <CardButton Name={cardContentArray[2].name} />
-           </CardItem>
-       </CardContainer> 
+        <>
+            <CardContainer>
+                <CardItem>
+                        <CardContent Text={cardContentArray[0].content} />
+                        <CardButton Name={cardContentArray[0].name} />
+                </CardItem>
+                <CardItem>
+                        <CardContent Text={cardContentArray[1].content} />
+                        <CardButton Name={cardContentArray[1].name} />
+                </CardItem>
+                <CardItem>
+                        <CardContent Text={cardContentArray[2].content} />
+                        <CardButton Name={cardContentArray[2].name} />
+                </CardItem>
+            </CardContainer> 
+
+            <CardContainer>
+                <CardItem>
+                        <CardContent Text={cardContentArray[3].content} />
+                        <CardButton Name={cardContentArray[3].name} />
+                </CardItem>
+                <CardItem>
+                        <CardContent Text={cardContentArray[4].content} />
+                        <CardButton Name={cardContentArray[4].name} />
+                </CardItem>
+                <CardItem>
+                        <CardContent Text={cardContentArray[5].content} />
+                        <CardButton Name={cardContentArray[5].name} />
+                </CardItem>
+            </CardContainer> 
+        </>
     )
 };
 
