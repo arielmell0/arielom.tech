@@ -1,4 +1,3 @@
-import { dblClick } from "@testing-library/user-event/dist/click";
 import styled from "styled-components";
 
 const CardButton = (props) => {
