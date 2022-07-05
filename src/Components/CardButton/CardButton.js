@@ -4,9 +4,9 @@ const CardButton = (props) => {
     return (
         
             <Button href={props.Link} target='_blank'>
-                <textButton>
+                <div>
                     {props.Name}
-                </textButton>
+                </div>
             </Button>  
         
     )
