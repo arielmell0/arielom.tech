@@ -8,10 +8,10 @@ import './App.css';
 function App() {
   return (
     <>
-      
+      <Menu />
 
       <Container>
-        <Menu />
+
         <ProfilePic />
         <Resume />
       </Container>
