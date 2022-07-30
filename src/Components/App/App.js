@@ -4,24 +4,23 @@ import { Container } from '../Container/Container';
 import Resume from '../Resume/Resume';
 import Card from '../Card/Card';
 import { CardContainer } from '../CardContainer.js/CardContainer';
+import GlobalStyle from '../../globalStyles';
 import './App.css';
 
 function App() {
   return (
     <>
-      
-
-      <Container>
+      <GlobalStyle />
+      <Container id='sobre'>
         <Menu />
         <ProfilePic />
         <Resume />
       </Container>
 
-      <CardContainer>
+      <CardContainer id='projetos'>
         <Card />
       </CardContainer>
     </>      
-    
   );
 }
 

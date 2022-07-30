@@ -4,9 +4,9 @@ import 'animate.css';
 const Menu = () => {
     return (
         <Header className='menu'>
-            <ListItem>Sobre</ListItem>
-            <ListItem>Projetos</ListItem>
-            <ListItem>Contato</ListItem>
+            <ListItem href="#sobre">Sobre</ListItem>
+            <ListItem href="#projetos">Projetos</ListItem>
+            <ListItem href="#contato">Contato</ListItem>
         </Header>
     )
 };
@@ -34,8 +34,10 @@ const ListItem = styled.a`
     font-weight: bold;
     font-size: 1.5rem;
     padding: 0;
+    text-decoration: none;
+    @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+    font-family: Roboto, sans-serif;
 
-    list-style-type: none;
     cursor: pointer;
 
     margin: 3vw;
