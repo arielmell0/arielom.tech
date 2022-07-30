@@ -4,16 +4,18 @@ import 'animate.css';
 const Menu = () => {
     return (
         <Header className='menu'>
-            <MenuList>
-                <ListItem>Sobre</ListItem>
-                <ListItem>Projetos</ListItem>
-                <ListItem>Contato</ListItem>
-            </MenuList>
+            <ListItem>Sobre</ListItem>
+            <ListItem>Projetos</ListItem>
+            <ListItem>Contato</ListItem>
         </Header>
     )
 };
 
 const Header = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 100vw;
     height: 10vh;
 
@@ -23,19 +25,7 @@ const Header = styled.div`
     background-color: black;
 `
 
-const MenuList = styled.ul`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    height: 10vh;
-    width: 100vw;
-    padding: 0 0 0 0;
-    margin: 0;
-`
-
-const ListItem = styled.li`
+const ListItem = styled.a`
     display: flex;
     justify-content: center;
     align-items: center;
