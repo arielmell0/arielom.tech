@@ -11,8 +11,9 @@ function App() {
   return (
     <>
       <GlobalStyle />
+      <Menu />
+      
       <Container id='sobre'>
-        <Menu />
         <ProfilePic />
         <Resume />
       </Container>

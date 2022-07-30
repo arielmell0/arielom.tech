@@ -6,6 +6,9 @@ export const CardContainer = styled.div`
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     background-color: black;
+    margin: 0;
+    padding: 0;
+    padding-top: 10vh;
 `
