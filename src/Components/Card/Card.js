@@ -30,7 +30,7 @@ const Card = () => {
             link: 'https://github.com/arielmell0/Urna-eletronica'
         },
         {
-            content: 'Um pequeno e simples chat TCP com NodeJS, utilizando o módulo net nativo do core da plataforma. Projeto desenvolvido durante a minha experiência com o livro Construindo aplicações com NodeJS 3° Edição .',
+            content: 'Um pequeno e simples chat TCP com NodeJS, utilizando o módulo net nativo do core da plataforma.',
             name: 'Chat TCP simples',
             link: 'https://github.com/arielmell0/chat-TCP'
         },
@@ -85,7 +85,7 @@ const CardItem = styled.div`
 
     @media (max-width: 700px) {
         width: 60%;
-        height: 40%;
+        height: 15%;
         margin-right: 0;
         margin-top: 5%;
 
@@ -103,6 +103,7 @@ const CardContainer = styled.div`
 
     @media (max-width: 600px) {
         flex-direction: column;
+        height: 260vh;
     }
 `
 
