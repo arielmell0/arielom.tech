@@ -18,9 +18,7 @@ function App() {
         <Resume />
       </Container>
 
-      <CardContainer id='projetos'>
-        <Card />
-      </CardContainer>
+      <Card />
     </>      
   );
 }

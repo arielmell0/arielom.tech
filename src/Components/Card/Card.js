@@ -85,9 +85,9 @@ const CardItem = styled.div`
     background-color: #26DB66;
 
     @media (max-width: 900px) {
-        width: 60%;
+        width: 80%;
         margin-right: 0;
-        margin-top: 2.5vh;
+        margin-top: 5%;
 
     }
 `;
@@ -97,6 +97,8 @@ const CardContainer = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    background-color: black;
 
     @media (max-width: 900px) {
         flex-direction: column;
