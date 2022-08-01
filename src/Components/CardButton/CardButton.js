@@ -17,13 +17,13 @@ const Button = styled.a`
     justify-content: center;
     align-items: center;
 
-    width: 60%;
-    height: 20%;
+    width: 70%;
+    height: 25%;
     background-color: white;
     border-radius: 4px;
     margin-bottom: 5%;
     border: none;
-    font-size: 1rem;
+    font-size: 1em;
 
     &:hover {
         background-color: black;

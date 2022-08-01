@@ -37,7 +37,8 @@ const Card = () => {
     ]
 
     return (
-        <>
+        <div id='projetos'>
+
             <CardContainer>
                 <CardItem>
                         <CardContent Text={cardContentArray[0].content} />
@@ -51,9 +52,7 @@ const Card = () => {
                         <CardContent Text={cardContentArray[2].content} />
                         <CardButton Name={cardContentArray[2].name} Link={cardContentArray[2].link} />
                 </CardItem>
-            </CardContainer> 
 
-            <CardContainer>
                 <CardItem>
                         <CardContent Text={cardContentArray[3].content} />
                         <CardButton Name={cardContentArray[3].name} Link={cardContentArray[3].link} />
@@ -67,7 +66,7 @@ const Card = () => {
                         <CardButton Name={cardContentArray[5].name} Link={cardContentArray[5].link} />
                 </CardItem>
             </CardContainer> 
-        </>
+        </div>
     )
 };
 
@@ -76,16 +75,17 @@ const CardItem = styled.div`
     justify-content: center;
     align-items: flex-end;
     flex-wrap: wrap;
-    height: 40vh;
-    width: 15vw;
+    height: 45%;
+    width: 20%;
     margin-left: 1.5vw;
     margin-right: 1.5vw;
     margin-top: 2.5vh;
     border-radius: 10%;
     background-color: #26DB66;
 
-    @media (max-width: 900px) {
-        width: 80%;
+    @media (max-width: 700px) {
+        width: 60%;
+        height: 40%;
         margin-right: 0;
         margin-top: 5%;
 
@@ -97,10 +97,11 @@ const CardContainer = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
     background-color: black;
+    flex-wrap: wrap;
 
-    @media (max-width: 900px) {
+    @media (max-width: 600px) {
         flex-direction: column;
     }
 `
