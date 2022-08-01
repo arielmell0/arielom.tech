@@ -58,7 +58,7 @@ const ListItem = styled.a`
         margin: 6vw;
     }
 
-    @media (max-width: 400px) {]
+    @media (max-width: 400px) {
         margin: 8vw;
     }
 `
