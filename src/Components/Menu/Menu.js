@@ -57,6 +57,10 @@ const ListItem = styled.a`
     @media (max-width: 500px) {
         margin: 6vw;
     }
+
+    @media (max-width: 400px) {]
+        margin: 8vw;
+    }
 `
 
 export default Menu;
