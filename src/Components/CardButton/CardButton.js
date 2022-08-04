@@ -34,7 +34,6 @@ const Button = styled.a`
     text-decoration: none;
     color: black;
     text-align: center;
-    line-height : 50px;
 `
 
 export default CardButton;
