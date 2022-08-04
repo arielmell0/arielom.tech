@@ -12,7 +12,7 @@ const SocialButtons = styled.a`
     border-radius: 4px;
     margin-bottom: 5%;
     border: 5px solid red;
-    font-size: 1em;
+    font-size: 1.2em;
     margin: 3% 3% 3%;
     padding: 0;
 
@@ -25,23 +25,23 @@ const SocialButtons = styled.a`
     text-decoration: none;
     color: black;
     text-align: center;
-    line-height : bold;
+    font-weight: bolder;
 `
 
 const TwitterButton = styled(SocialButtons)`
-    border: 5px solid blue;
+    border: 5px solid #1DA1F2;
 `;
 
 const InstagramButton = styled(SocialButtons)`
-    border: 5px solid pink;
+    border: 5px solid #E1306C;
 `;
 
 const GithubButton = styled(SocialButtons)`
-    border: 5px solid gray;
+    border: 5px solid #333;
 `;
 
 const LinkedinButton = styled(SocialButtons)`
-    border: 5px solid darkblue;
+    border: 5px solid #0072b1;
 `;
 
 export {TwitterButton, InstagramButton, GithubButton, LinkedinButton };

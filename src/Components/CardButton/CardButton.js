@@ -34,6 +34,7 @@ const Button = styled.a`
     text-decoration: none;
     color: black;
     text-align: center;
+    font-weight: 500;
 `
 
 export default CardButton;
