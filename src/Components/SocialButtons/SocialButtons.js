@@ -13,7 +13,7 @@ const SocialButtons = styled.a`
     margin-bottom: 5%;
     border: 5px solid red;
     font-size: 1.2em;
-    margin: 3% 3% 3%;
+    margin: 2.5% 2.5%;
     padding: 0;
 
     &:hover {

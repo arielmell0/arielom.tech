@@ -100,6 +100,7 @@ const CardContainer = styled.div`
     height: 90vh;
     background-color: black;
     flex-wrap: wrap;
+    padding-top: 10vh;
 
     @media (max-width: 600px) {
         flex-direction: column;
