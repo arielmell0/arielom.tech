@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Container } from "../Container/Container";
 import { TwitterButton, InstagramButton, LinkedinButton, GithubButton } from '../SocialButtons/SocialButtons';
-import profilePicContact from '../../images/profilePicContact.jpg';
 
 const SocialContainer = styled(Container)`
     height: 20vh;

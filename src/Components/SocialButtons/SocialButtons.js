@@ -7,7 +7,7 @@ const SocialButtons = styled.a`
     align-self: flex-end;
 
     width: 15%;
-    height: 10%;
+    height: 30%;
     background-color: white;
     border-radius: 4px;
     margin-bottom: 5%;
