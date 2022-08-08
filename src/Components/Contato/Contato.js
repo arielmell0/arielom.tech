@@ -27,6 +27,10 @@ const TextoContato = styled.div`
 const FotoDoFeio = styled.img`
     margin: 2.5% 2.5%;
 
+    @media(max-width: 600px) {
+        width: 200px;
+        height: 200px;
+    }
 `;
 
 const Contato = () => {
