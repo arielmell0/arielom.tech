@@ -37,8 +37,8 @@ const Contato = () => {
     return (
         <div id='contato'>
             <ContatoContainer>
-                <FotoDoFeio src="https://scontent.fccm8-1.fna.fbcdn.net/v/t39.30808-6/289458139_781640299877846_8545634811128899646_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=LhlLbPRVJdsAX-D-8xa&tn=Z_eLk0aLw7oklqaT&_nc_ht=scontent.fccm8-1.fna&oh=00_AT9y_dVNL6QKcxamb2Cja0ppCtvTVl2LO8EKfb1hNJtFsg&oe=632EF3B7"
-                width="400" height="400" alt="foto do autor"/>
+                <FotoDoFeio src="https://i.ibb.co/HC4kBcs/IMG-20221005-211831.jpg"
+                width="296,66" height="400" alt="foto do autor"/>
                 <TextoContato>
                     Você pode entrar em contato comigo pelas minhas redes sociais,<br/> fique a vontade
                     para fazer perguntas,<br/> trocar conhecimento ou apenas socializar!
