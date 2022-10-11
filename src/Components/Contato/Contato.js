@@ -22,7 +22,7 @@ const TextoContato = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80vw;
+    width: 55vw;
     font-weight: 500;
     line-height: 1.6;
     font-size: 1.2em;
