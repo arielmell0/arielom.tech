@@ -22,6 +22,14 @@ const TextoContato = styled.div`
     font-weight: 500;
     line-height: 1.6;
     font-size: 1.2em;
+
+    @media(max-width: 600px) {
+        font-size: 1em
+    }
+
+    @media(max-width: 400px) {
+        font-size: .8em
+    }
 `;
 
 const FotoDoFeio = styled.img`
