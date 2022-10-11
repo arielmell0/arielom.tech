@@ -22,7 +22,7 @@ const TextoContato = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 80vw;
     font-weight: 500;
     line-height: 1.6;
     font-size: 1.2em;
@@ -32,7 +32,8 @@ const TextoContato = styled.div`
     }
 
     @media(max-width: 400px) {
-        font-size: .8em
+        font-size: .8em;
+        margin: 15% 0 0 0;
     }
 `;
 
@@ -40,9 +41,8 @@ const FotoDoFeio = styled.img`
     margin: 2.5% 2.5%;
 
     @media(max-width: 600px) {
-        width: 200px;
-        height: 200px;
-        margin-bottom: 10%;
+        width: 178px;
+        height: 240px;
     }
 `;
 
