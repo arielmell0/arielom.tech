@@ -4,7 +4,6 @@ const SocialButtons = styled.a`
     display: flex;
     justify-content: center;
     align-items: center;
-    align-self: flex-end;
 
     width: 15%;
     height: 30%;
