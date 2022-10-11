@@ -26,6 +26,14 @@ const SocialButtons = styled.a`
     color: black;
     text-align: center;
     font-weight: bolder;
+
+    @media(max-width: 600px) {
+        font-size: 1em
+    }
+
+    @media(max-width: 500px) {
+        font-size: 0.6em
+    }
 `
 
 const TwitterButton = styled(SocialButtons)`
