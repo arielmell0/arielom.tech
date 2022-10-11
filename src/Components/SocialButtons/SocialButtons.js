@@ -28,11 +28,11 @@ const SocialButtons = styled.a`
     font-weight: bolder;
 
     @media(max-width: 600px) {
-        font-size: 1em
+        font-size: 1em;
     }
 
     @media(max-width: 500px) {
-        font-size: 0.6em
+        font-size: 0.6em;
     }
 `
 

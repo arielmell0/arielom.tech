@@ -12,6 +12,10 @@ const ContatoContainer = styled(Container)`
     flex-direction: row;
     padding: 0;
     height: 70vh;
+
+    @media(max-width: 400px) {
+        flex-direction: column;
+    }
 `;
 
 const TextoContato = styled.div`
@@ -38,6 +42,7 @@ const FotoDoFeio = styled.img`
     @media(max-width: 600px) {
         width: 200px;
         height: 200px;
+        margin-bottom: 10%;
     }
 `;
 
