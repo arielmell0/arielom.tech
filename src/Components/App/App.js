@@ -6,19 +6,8 @@ import Card from '../Card/Card';
 import Contato from '../Contato/Contato';
 import GlobalStyle from '../../globalStyles';
 import './App.css';
-import ReactGA from 'react-ga';
-import { useEffect } from 'react';
 
 function App() {
-  const initializeGa = () => {
-    ReactGA.initialize('G-XD31VDXNS6');
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }
-
-  useEffect(() => {
-    initializeGa()
-  }, [])
-
   return (
     <>
       <GlobalStyle />
